@@ -16,6 +16,7 @@ def index():
     books = db.execute('SELECT * FROM book').fetchall()
     return render_template('library/index.html', books=books)
 
+
 @bp.route('/book/<int:id>')
 def book_detail(id):
     db = get_db()
