@@ -24,8 +24,8 @@ def create_app(test_config=None):
     except OSError:
         pass
 
-    @app.route('/')
-    def index():
+    @app.route('/about')
+    def about():
         return 'Flaskville Library'
 
     from . import db
@@ -33,5 +33,9 @@ def create_app(test_config=None):
 
     from . import auth
     app.register_blueprint(auth.bp)
+
+    from . import library
+    app.register_blueprint(library.bp)
+    app.add_url_rule('/', endpoint='index')
 
     return app

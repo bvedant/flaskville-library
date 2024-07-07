@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e855010-c1d4-4e71-87b9-e200c3b25d46" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/static/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,18 +17,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "bvedant"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;bvedant&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:bvedant/flaskville-library.git",
-    "accountId": "f38a8498-494e-44fa-885e-be467062a645"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:bvedant/flaskville-library.git&quot;,
+    &quot;accountId&quot;: &quot;f38a8498-494e-44fa-885e-be467062a645&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -41,7 +43,6 @@
     "Flask server.Flask (.venv/bin/flask).executor": "Run",
     "Flask server.Flask.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "js.buildTools.grunt.grunt-cli.package": "",
     "last_opened_file_path": "/Users/barath/code/examples/flask/library",
@@ -72,6 +73,7 @@
       <updated>1720308751229</updated>
       <workItem from="1720308752772" duration="47000" />
       <workItem from="1720308803407" duration="3141000" />
+      <workItem from="1720329871219" duration="569000" />
     </task>
     <servers />
   </component>

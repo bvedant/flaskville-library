@@ -10,7 +10,7 @@
     align-items: flex-end;
 }
 
-.content>header h1 {
+.content>header h1, h3 {
     flex: auto;
     margin: 1rem 0 0.25rem 0;
 }
