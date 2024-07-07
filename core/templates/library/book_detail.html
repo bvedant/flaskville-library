@@ -7,6 +7,9 @@
 {% endblock %}
 
 {% block content %}
+  {% if book.image %}
+    <img src="{{ url_for('static', filename='images/' ~ book.image) }}" alt="Book Cover" style="max-width: 200px;">
+  {% endif %}
   <p><strong>Author:</strong> {{ book.author }}</p>
   <p><strong>ISBN:</strong> {{ book.isbn }}</p>
   <p><strong>Genre:</strong> {{ book.genre }}</p>
