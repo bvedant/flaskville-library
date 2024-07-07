@@ -1,6 +1,6 @@
 import os
 
-from flask import Flask
+from flask import Flask, session, request, redirect, url_for
 
 
 def create_app(test_config=None):
@@ -23,6 +23,14 @@ def create_app(test_config=None):
         os.makedirs(app.instance_path)
     except OSError:
         pass
+
+    @app.route('/toggle-dark-mode', methods=['POST'])
+    def toggle_dark_mode():
+        if request.form.get('dark_mode'):
+            session['dark_mode'] = True
+        else:
+            session['dark_mode'] = False
+        return redirect(request.referrer)
 
     @app.route('/about')
     def about():
